@@ -24,6 +24,7 @@ const MainTitleText = styled.p`
 function App(props) {
   return (
     <BrowserRouter>
+      <MainTitleText>yuns의 미니 블로그</MainTitleText>
       <Routes>
         <Route index element={<MainPage />} />
         <Route path="post-write" element={<PostWritePage />} />
